@@ -1,0 +1,487 @@
+{
+  "@@locale": "es",
+  "appName": "UpcConecta",
+  "logoLabel": "Logo de UPC Conecta",
+  "backTooltip": "Volver",
+  "retry": "Reintentar",
+  "loginTitle": "Inicia sesión",
+  "loginSubtitle": "Usa tu correo institucional de la UPC.",
+  "emailLabel": "Correo institucional",
+  "emailHint": "nombre@unicesar.edu.co",
+  "passwordLabel": "Contraseña",
+  "showPassword": "Mostrar contraseña",
+  "hidePassword": "Ocultar contraseña",
+  "forgotPasswordLink": "¿Olvidaste tu contraseña?",
+  "signInButton": "Iniciar sesión",
+  "noAccountQuestion": "¿Aún no tienes cuenta?",
+  "createAccountLink": "Crear cuenta",
+  "registerTitle": "Crea tu cuenta",
+  "registerSubtitle": "Solo para estudiantes y profesores con correo @{domain}.",
+  "@registerSubtitle": {
+    "placeholders": {
+      "domain": {
+        "type": "String"
+      }
+    }
+  },
+  "photoAdd": "Agregar foto de perfil",
+  "photoChange": "Cambiar foto",
+  "photoRemove": "Quitar foto",
+  "photoFromGallery": "Elegir de la galería",
+  "photoFromCamera": "Tomar una foto",
+  "photoOptional": "Opcional",
+  "photoTooLarge": "La foto pesa más de 2 MB. Elige otra.",
+  "photoInvalidType": "Usa una foto JPG, PNG o WEBP.",
+  "fullNameLabel": "Nombre completo",
+  "usernameLabel": "Nombre de usuario",
+  "usernameHelper": "Así te encontrarán. Solo minúsculas, números, punto o guion bajo.",
+  "birthDateLabel": "Fecha de nacimiento",
+  "birthDateHint": "dd/mm/aaaa",
+  "birthDateCalendarTooltip": "Abrir calendario",
+  "facultyLabel": "Facultad",
+  "programLabel": "Carrera",
+  "programHintNoFaculty": "Primero elige tu facultad",
+  "academicLoadError": "No se pudo cargar la lista.",
+  "phoneLabel": "Celular (opcional)",
+  "phoneHint": "3001234567",
+  "bioLabel": "Descripción (opcional)",
+  "bioHint": "Cuéntale a la comunidad qué sabes hacer o qué ofreces.",
+  "newPasswordHelper": "Mínimo {minLength} caracteres, con letras y números.",
+  "@newPasswordHelper": {
+    "placeholders": {
+      "minLength": {
+        "type": "int"
+      }
+    }
+  },
+  "confirmPasswordLabel": "Confirmar contraseña",
+  "dataConsent": "Autorizo el tratamiento de mis datos personales según la Ley 1581 de 2012.",
+  "createAccountButton": "Crear cuenta",
+  "haveAccountQuestion": "¿Ya tienes cuenta?",
+  "verifyTitle": "Verifica tu correo",
+  "verifySubtitle": "Enviamos un código a {email}. Escríbelo aquí para activar tu cuenta.",
+  "@verifySubtitle": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "verifyNoPending": "No hay un registro en curso. Crea tu cuenta para recibir un código.",
+  "codeLabel": "Código de verificación",
+  "checkSpam": "¿No te llegó? Revisa la carpeta de spam o pide otro código.",
+  "verifyButton": "Verificar",
+  "resendCodeButton": "Reenviar código",
+  "codeResent": "Te enviamos un código nuevo.",
+  "forgotTitle": "Recupera tu contraseña",
+  "forgotSubtitle": "Escribe tu correo institucional y te enviaremos un código para crear una contraseña nueva.",
+  "sendCodeButton": "Enviar código",
+  "resetTitle": "Crea una contraseña nueva",
+  "resetSubtitle": "Escribe el código que enviamos a {email} y tu contraseña nueva.",
+  "@resetSubtitle": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "resetNoPending": "Primero pide un código con tu correo institucional.",
+  "newPasswordLabel": "Contraseña nueva",
+  "resetButton": "Cambiar contraseña",
+  "validationEmailRequired": "Escribe tu correo institucional.",
+  "validationEmailIncomplete": "Escribe el correo completo, por ejemplo nombre@{domain}.",
+  "@validationEmailIncomplete": {
+    "placeholders": {
+      "domain": {
+        "type": "String"
+      }
+    }
+  },
+  "validationEmailNotInstitutional": "Usa tu correo institucional @{domain}.",
+  "@validationEmailNotInstitutional": {
+    "placeholders": {
+      "domain": {
+        "type": "String"
+      }
+    }
+  },
+  "validationPasswordRequired": "Escribe tu contraseña.",
+  "validationFullNameRequired": "Escribe tu nombre completo.",
+  "validationFullNameIncomplete": "Escribe tu nombre y apellido.",
+  "validationUsernameRequired": "Elige un nombre de usuario.",
+  "validationUsernameFormat": "Usa de {min} a {max} caracteres: minúsculas, números, punto o guion bajo.",
+  "@validationUsernameFormat": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "validationBirthDateRequired": "Escribe tu fecha de nacimiento.",
+  "validationBirthDateInvalid": "Escribe una fecha válida con el formato dd/mm/aaaa.",
+  "validationBirthDateAge": "Debes tener entre {min} y {max} años.",
+  "@validationBirthDateAge": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "validationFacultyRequired": "Elige tu facultad.",
+  "validationProgramRequired": "Elige tu carrera.",
+  "validationPhoneFormat": "Escribe un celular de 10 dígitos que empiece por 3.",
+  "validationPasswordLength": "Usa mínimo {minLength} caracteres.",
+  "@validationPasswordLength": {
+    "placeholders": {
+      "minLength": {
+        "type": "int"
+      }
+    }
+  },
+  "validationPasswordLettersNumbers": "Combina letras y números.",
+  "validationPasswordConfirmRequired": "Repite tu contraseña.",
+  "validationPasswordMismatch": "Las contraseñas no coinciden.",
+  "validationConsentRequired": "Debes aceptar la autorización de datos para crear tu cuenta.",
+  "validationCodeFormat": "Escribe el código de números que te enviamos.",
+  "errorInvalidCredentials": "Correo o contraseña incorrectos.",
+  "errorEmailAlreadyInUse": "Ya existe una cuenta con este correo. Inicia sesión o recupera tu contraseña.",
+  "errorUsernameTaken": "Ese nombre de usuario ya está en uso. Prueba con otro.",
+  "errorNonInstitutionalEmail": "Solo se aceptan correos @{domain}.",
+  "@errorNonInstitutionalEmail": {
+    "placeholders": {
+      "domain": {
+        "type": "String"
+      }
+    }
+  },
+  "errorWeakPassword": "La contraseña debe tener mínimo {minLength} caracteres, con letras y números.",
+  "@errorWeakPassword": {
+    "placeholders": {
+      "minLength": {
+        "type": "int"
+      }
+    }
+  },
+  "errorSamePassword": "La contraseña nueva debe ser diferente a la anterior.",
+  "errorEmailNotVerified": "Tu correo aún no está verificado. Escribe el código que te enviamos al registrarte; revisa también la carpeta de spam.",
+  "errorInvalidCode": "El código no es válido o ya venció. Revísalo o pide uno nuevo.",
+  "errorEmailDelivery": "No pudimos enviar el correo con el código. Inténtalo de nuevo en unos minutos.",
+  "errorTooManyRequests": "Demasiados intentos. Espera unos minutos y vuelve a intentarlo.",
+  "errorNetwork": "Sin conexión. Revisa tu internet y vuelve a intentarlo.",
+  "errorUnknown": "No se pudo completar. Vuelve a intentarlo.",
+  "signOutButton": "Cerrar sesión",
+  "navHome": "Inicio",
+  "navGroups": "Grupos",
+  "navCreate": "Publicar",
+  "navMessages": "Mensajes",
+  "navProfile": "Perfil",
+  "feedFeatured": "Destacados",
+  "feedCommunity": "Comunidad",
+  "feedTransport": "Transporte",
+  "feedFilterTooltip": "Filtrar publicaciones",
+  "feedSearchTooltip": "Buscar",
+  "feedFilterTitle": "Filtrar por categoría",
+  "feedFilterAll": "Todas",
+  "feedFilterActive": "Mostrando: {category}",
+  "@feedFilterActive": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "feedFilterClear": "Quitar filtro",
+  "feedEmpty": "Aún no hay publicaciones aquí.",
+  "feedEmptyFeatured": "Aún no hay publicaciones destacadas.",
+  "feedError": "No pudimos cargar las publicaciones.",
+  "retryButton": "Reintentar",
+  "categoryProduct": "Producto",
+  "categoryService": "Servicio",
+  "categorySkill": "Habilidad",
+  "categoryAdvisory": "Asesoría",
+  "postFeatured": "Destacado",
+  "postVerified": "Cuenta verificada",
+  "postOptionsTooltip": "Opciones de la publicación",
+  "postHide": "Ocultar publicación",
+  "postHideHint": "No volverás a verla en tu inicio.",
+  "postHidden": "Publicación ocultada.",
+  "postReport": "Reportar publicación",
+  "postReportHint": "Avísanos si es engañosa o inapropiada.",
+  "postReportTitle": "¿Por qué reportas esta publicación?",
+  "reportSpam": "Spam o publicidad engañosa",
+  "reportInappropriate": "Contenido inapropiado u ofensivo",
+  "reportFraud": "Fraude o estafa",
+  "reportOther": "Otro motivo",
+  "postReported": "Gracias. Revisaremos esta publicación.",
+  "cancelButton": "Cancelar",
+  "closeTooltip": "Cerrar",
+  "postSeeMore": "Ver más",
+  "postSeeLess": "Ver menos",
+  "postNoRatings": "Sin calificaciones aún",
+  "postReviews": "{count, plural, =1{1 reseña} other{{count} reseñas}}",
+  "@postReviews": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "postRequest": "Solicitar",
+  "postChatTooltip": "Enviar mensaje",
+  "railFollow": "Seguir a {name}",
+  "@railFollow": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "railFollowing": "Dejar de seguir a {name}",
+  "@railFollowing": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "railLike": "Me gusta",
+  "railSave": "Guardar",
+  "railSaved": "Guardado",
+  "railShare": "Compartir",
+  "shareText": "{text}\n\n— {author}, en UpcConecta",
+  "@shareText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "author": {
+        "type": "String"
+      }
+    }
+  },
+  "shareCopied": "Copiado. Ya puedes pegarlo donde quieras compartirlo.",
+  "mediaVideo": "Video",
+  "mediaCounter": "{current}/{total}",
+  "@mediaCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "timeNow": "Ahora",
+  "timeMinutes": "{minutes} min",
+  "@timeMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "timeHours": "{hours} h",
+  "@timeHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "timeDays": "{days} d",
+  "@timeDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "comingSoon": "Disponible muy pronto.",
+  "transportTitle": "Transporte compartido",
+  "transportMessage": "Muy pronto podrás compartir viaje entre tu casa y la universidad, viendo la ubicación en tiempo real.",
+  "groupsTitle": "Grupos",
+  "groupsMessage": "Aquí verás tus grupos de estudio y de juegos, públicos o privados.",
+  "messagesTitle": "Mensajes",
+  "messagesMessage": "Aquí verás tus conversaciones con otros estudiantes y profesores.",
+  "createPostTitle": "Nueva publicación",
+  "createPostVisibility": "Visible para la comunidad UPC",
+  "createPostYou": "Tú",
+  "createPostPreview": "Vista previa",
+  "createPostPreviewTitle": "Así se verá en el inicio",
+  "createPostCategoryTitle": "¿Qué vas a publicar? *",
+  "createPostCategoryHint": "Elige la categoría; ayuda a que te encuentren con los filtros.",
+  "createPostCategoryRequired": "Elige una categoría.",
+  "createPostTextTitle": "Descripción *",
+  "createPostTextLabel": "Cuéntale a la comunidad",
+  "createPostTextHint": "Describe tu producto, servicio, habilidad o asesoría: qué incluye, horarios, dónde entregas…",
+  "createPostTextRequired": "Escribe una descripción.",
+  "createPostMediaTitle": "Fotos o video",
+  "createPostMediaHint": "Opcional. Hasta {photos} fotos o 1 video corto (máximo {megabytes} MB).",
+  "@createPostMediaHint": {
+    "placeholders": {
+      "photos": {
+        "type": "int"
+      },
+      "megabytes": {
+        "type": "int"
+      }
+    }
+  },
+  "createPostAddPhotos": "Agregar fotos",
+  "createPostAddVideo": "Agregar video",
+  "createPostRemoveMedia": "Quitar",
+  "createPostPhotosSkipped": "Algunas fotos no se agregaron: máximo {photos} fotos JPG, PNG o WEBP de hasta {megabytes} MB.",
+  "@createPostPhotosSkipped": {
+    "placeholders": {
+      "photos": {
+        "type": "int"
+      },
+      "megabytes": {
+        "type": "int"
+      }
+    }
+  },
+  "createPostVideoInvalid": "Ese formato de video no se puede subir. Usa MP4, MOV o WEBM.",
+  "createPostVideoTooLarge": "El video pesa más de {megabytes} MB. Elige uno más corto.",
+  "@createPostVideoTooLarge": {
+    "placeholders": {
+      "megabytes": {
+        "type": "int"
+      }
+    }
+  },
+  "createPostVideoSize": "Video · {megabytes} MB",
+  "@createPostVideoSize": {
+    "placeholders": {
+      "megabytes": {
+        "type": "String"
+      }
+    }
+  },
+  "createPostTagsTitle": "Etiquetas",
+  "createPostTagsHint": "Opcional. Hasta {count} palabras clave para que te encuentren.",
+  "@createPostTagsHint": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "createPostTagLabel": "Nueva etiqueta",
+  "createPostTagHint": "Ej.: Tecnología",
+  "createPostTagsFull": "Ya tienes el máximo de etiquetas",
+  "createPostAddTag": "Agregar etiqueta",
+  "createPostRemoveTag": "Quitar etiqueta",
+  "createPostSubmit": "Publicar",
+  "createPostPublishing": "Publicando…",
+  "createPostUploadingHint": "Subiendo tus archivos; no cierres la app.",
+  "createPostDone": "¡Listo! Tu publicación ya está en el inicio.",
+  "createPostDiscardTitle": "¿Descartar la publicación?",
+  "createPostDiscardMessage": "Lo que escribiste y los archivos que elegiste se perderán.",
+  "createPostKeepEditing": "Seguir editando",
+  "createPostDiscard": "Descartar",
+  "postDelete": "Eliminar publicación",
+  "postDeleteHint": "Se borra para todos, con sus fotos o video.",
+  "postDeleteTitle": "¿Eliminar la publicación?",
+  "postDeleteMessage": "Esta acción no se puede deshacer.",
+  "postDeleteConfirm": "Eliminar",
+  "postDeleted": "Publicación eliminada.",
+  "videoError": "No se pudo reproducir el video.",
+  "videoPlay": "Reproducir",
+  "errorNotFound": "No encontramos lo que buscas. Puede que se haya borrado.",
+  "errorConflict": "Ese dato ya está en uso. Prueba con otro.",
+  "saveButton": "Guardar",
+  "profileEdit": "Editar perfil",
+  "profileMoreInfo": "Ver más información",
+  "profileMoreOptions": "Más opciones",
+  "profileFollowingCount": "Siguiendo",
+  "profileFollowersCount": "Seguidores",
+  "profileLikesCount": "Me gusta",
+  "profileLikesInfo": "{count, plural, =1{1 me gusta} other{{count} me gusta}} en todas las publicaciones.",
+  "@profileLikesInfo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "profileFollow": "Seguir",
+  "profileFollowing": "Siguiendo",
+  "profileMessage": "Mensaje",
+  "profileTabPosts": "Publicaciones",
+  "profileTabSaved": "Guardadas",
+  "profileTabLiked": "Me encanta",
+  "profileTabShared": "Compartidas",
+  "profileEmptyMyPosts": "Aún no has publicado. Toca + para compartir lo que ofreces.",
+  "profileEmptyPosts": "Esta persona aún no ha publicado.",
+  "profileEmptySaved": "Las publicaciones que guardes aparecerán aquí. Solo tú las ves.",
+  "profileEmptyLiked": "Las publicaciones que te gusten aparecerán aquí. Solo tú las ves.",
+  "profileEmptyShared": "Las publicaciones que compartas aparecerán aquí. Solo tú las ves.",
+  "profileRole": "Rol",
+  "roleStudent": "Estudiante",
+  "roleTeacher": "Profesor",
+  "roleAdmin": "Administrador",
+  "profileRating": "Calificación",
+  "profilePostsCount": "Publicaciones",
+  "profileMemberSince": "En UpcConecta desde",
+  "profileNotSet": "Sin agregar",
+  "profileShare": "Compartir perfil",
+  "profileShareText": "Mira el perfil de {name} (@{username}) en UpcConecta.",
+  "@profileShareText": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "username": {
+        "type": "String"
+      }
+    }
+  },
+  "profileSettings": "Configuración y privacidad",
+  "profileReport": "Reportar perfil",
+  "profileViewersTitle": "Vistas del perfil",
+  "profileViewersHint": "Personas que visitaron tu perfil en los últimos 30 días.",
+  "profileViewersEmpty": "Nadie ha visitado tu perfil en los últimos 30 días.",
+  "profileViewedAgo": "Visitó tu perfil · {time}",
+  "@profileViewedAgo": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "searchUsersTitle": "Buscar personas",
+  "searchUsersFieldHint": "Nombre o @usuario",
+  "searchUsersHint": "Busca compañeros, amigos o profesores por su nombre o usuario.",
+  "searchUsersEmpty": "No encontramos a nadie con «{query}».",
+  "@searchUsersEmpty": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "followersEmpty": "Aún no tiene seguidores.",
+  "followingEmpty": "Aún no sigue a nadie.",
+  "signOutConfirmTitle": "¿Cerrar sesión?",
+  "signOutConfirmMessage": "Tendrás que volver a escribir tu correo y contraseña para entrar.",
+  "editProfileBasicInfo": "Información básica",
+  "editProfilePrivateInfo": "Datos privados",
+  "editProfilePrivateHint": "Tu correo y tu fecha de nacimiento solo los ves tú. El correo institucional no se puede cambiar.",
+  "editProfileBio": "Descripción",
+  "editProfileAddBio": "Agregar una descripción",
+  "editProfilePhone": "Celular",
+  "editProfileAddPhone": "Agregar celular",
+  "editProfileStudies": "Facultad y carrera",
+  "editProfileAddStudies": "Agregar tu carrera",
+  "profileSaved": "Perfil actualizado.",
+  "profilePhotoSaved": "Foto de perfil actualizada.",
+  "usernameAvailable": "Disponible"
+}

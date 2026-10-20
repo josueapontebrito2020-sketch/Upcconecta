@@ -1,0 +1,36 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "UpcConecta (Brave, vista móvil)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": ["-d", "web-server", "--web-port", "8080"]
+    },
+    {
+      "name": "UpcConecta (Brave, vista móvil, con Supabase)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [
+        "-d", "web-server",
+        "--web-port", "8080",
+        "--dart-define-from-file=env/dev.json"
+      ]
+    },
+    {
+      "name": "UpcConecta (prueba, sin Supabase)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart"
+    },
+    {
+      "name": "UpcConecta (con Supabase)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": ["--dart-define-from-file=env/dev.json"]
+    }
+  ]
+}
