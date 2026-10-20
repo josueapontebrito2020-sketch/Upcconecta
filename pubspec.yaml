@@ -27,6 +27,13 @@ dependencies:
 
   cupertino_icons: ^1.0.8
 
+# Arreglo temporal: shared_preferences_android 2.5.x (que usa Supabase para
+# guardar la sesión) falla en el APK de Android con "NoSuchMethodError ...
+# SharedPreferencesApiRegistrar.getAll" y la app queda en negro al abrir.
+# Se fija la última versión que funciona. Quitar cuando lo corrijan.
+dependency_overrides:
+  shared_preferences_android: 2.4.28
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

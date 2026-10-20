@@ -1653,6 +1653,18 @@ abstract class AppLocalizations {
   /// In es, this message translates to:
   /// **'Disponible'**
   String get usernameAvailable;
+
+  /// No description provided for @startupErrorTitle.
+  ///
+  /// In es, this message translates to:
+  /// **'No pudimos abrir UpcConecta'**
+  String get startupErrorTitle;
+
+  /// No description provided for @startupErrorMessage.
+  ///
+  /// In es, this message translates to:
+  /// **'Revisa tu conexión a internet y vuelve a intentarlo. Si el problema sigue, cierra la app y ábrela de nuevo.'**
+  String get startupErrorMessage;
 }
 
 class _AppLocalizationsDelegate

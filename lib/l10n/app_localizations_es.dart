@@ -896,4 +896,11 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get usernameAvailable => 'Disponible';
+
+  @override
+  String get startupErrorTitle => 'No pudimos abrir UpcConecta';
+
+  @override
+  String get startupErrorMessage =>
+      'Revisa tu conexión a internet y vuelve a intentarlo. Si el problema sigue, cierra la app y ábrela de nuevo.';
 }

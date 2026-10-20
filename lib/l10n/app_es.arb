@@ -483,5 +483,7 @@
   "editProfileAddStudies": "Agregar tu carrera",
   "profileSaved": "Perfil actualizado.",
   "profilePhotoSaved": "Foto de perfil actualizada.",
-  "usernameAvailable": "Disponible"
+  "usernameAvailable": "Disponible",
+  "startupErrorTitle": "No pudimos abrir UpcConecta",
+  "startupErrorMessage": "Revisa tu conexión a internet y vuelve a intentarlo. Si el problema sigue, cierra la app y ábrela de nuevo."
 }
